@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Netflix and ACTUALLY Chill</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <style>
+                body {
+                    background: #221F1F;
+                    color:#E50914;
+                }
+                button {
+                    background: #221F1F;
+                    color:#E50914;
+                    font-size: 15px;
+                    border: 3px solid #E50914;
+                }
+                input {
+                    background: #333;
+                    border: none;
+                }
+                h1{
+                font-size: 50px;
+                }
+                h2{
+                    font-size: 35px;
+                }
+                h3{
+                    font-size: 30px;
+                }
+                .container{
+                    padding: 10px;
+                }
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Netflix and ACTUALLY Chill</h1>
+                <br>
+                <h2>Because sometimes, you just want to eat pad thai and watch Black Mirrors with company.</h2>
+                <hr>
+            </div>
+            <br>
+            <div id="survey">
+                <form>
+                <label>What is your name? </label><input type="text" id="name" placeholder="Enter Your Name Here"><br><br>
+
+                    <label>1. Which of the following best describes your Netflix viewing habits</label><br>
+                    <input type="radio" name="q1" value="1"> Extreme binge watcher 3hr+<br>
+                    <input type="radio" name="q1" value="2"> Moderate binge watcher 1-3hrs<br>
+                    <input type="radio" name="q1" value="3"> Not a binge watcher less than 1hr<br>
+                    <input type="radio" name="q1" value="4"> Occasional viewer<br>
+                    <input type="radio" name="q1" value="5"> Am I still paying for netflix?<br>
+                    <br>
+                    <label>2. Which of the following are you most likely to binge?</label><br>
+                    <input type="radio" name="q2" value="1"> Arrested Developement<br>
+                    <input type="radio" name="q2" value="2"> Dynasty<br>
+                    <input type="radio" name="q2" value="3"> Queer Eye<br>
+                    <input type="radio" name="q2" value="4"> Mojack Horseman<br>
+                    <input type="radio" name="q2" value="5"> A Series of Unfortunate Events<br>
+                    <br>
+                    <label>3. Which of the following are you most likely to watch on a lazy day?</label><br>
+                    <input type="radio" name="q3" value="1"> Stranger Things<br>
+                    <input type="radio" name="q3" value="2"> House of Cards<br>
+                    <input type="radio" name="q3" value="3"> Fuller House<br>
+                    <input type="radio" name="q3" value="4"> On My Block<br>
+                    <input type="radio" name="q3" value="5"> RuPaul's Drag Race<br>
+                    <br>
+                    <label>4. Which of the following movies are you most likely to watch?</label><br>
+                    <input type="radio" name="q4" value="1"> To The Bone<br>
+                    <input type="radio" name="q4" value="2"> Hush<br>
+                    <input type="radio" name="q4" value="3"> To All the Boys I've Loved Before<br>
+                    <input type="radio" name="q4" value="4"> Inception<br>
+                    <input type="radio" name="q4" value="5"> Thor: Ragnarok<br>
+                    <br>
+                    <label>5. Which of the following documentaries would you rather watch?</label><br>
+                    <input type="radio" name="q5" value="1"> Fat, Sick, and Nearly Dead<br>
+                    <input type="radio" name="q5" value="2"> Cowspiracy<br>
+                    <input type="radio" name="q5" value="3"> Gaga: Five Foot Two<br>
+                    <input type="radio" name="q5" value="4"> Saving Capitalism<br>
+                    <input type="radio" name="q5" value="5"> The Ivory Game<br>
+                    <br>
+                    <label>6. Which of the following shows do you avoid at all cost?</label><br>
+                    <input type="radio" name="q6" value="1"> Insatiable<br>
+                    <input type="radio" name="q6" value="2"> 13 Reasons Why<br>
+                    <input type="radio" name="q6" value="3"> Gilmore Girls: A Year in the Life<br>
+                    <input type="radio" name="q6" value="4"> Riverdale<br>
+                    <input type="radio" name="q6" value="5"> Girlboss<br>
+                    <br>
+                    <label>7. If you could add any of the following shows to Netflix, which would you choose?</label><br>
+                    <input type="radio" name="q7" value="1"> Bob's Burgers<br>
+                    <input type="radio" name="q7" value="2"> Mom<br>
+                    <input type="radio" name="q7" value="3"> Law & Order: Special Victims Unit<br>
+                    <input type="radio" name="q7" value="4"> Game of Thrones<br>
+                    <input type="radio" name="q7" value="5"> The Ellen DeGeneres' Show<br>
+                    <br>
+                    <label>8. After a rough day, which of the following are you most likely to watch?</label><br>
+                    <input type="radio" name="q8" value="1"> Family Guy<br>
+                    <input type="radio" name="q8" value="2"> How I Met Your Mother<br>
+                    <input type="radio" name="q8" value="3"> Gilmore Girls<br>
+                    <input type="radio" name="q8" value="4"> Daredevil<br>
+                    <input type="radio" name="q8" value="5"> The Crown<br>
+                    <br>
+                    <label>9. While watching Netflix, what is your snack of choice?</label><br>
+                    <input type="radio" name="q9" value="1"> Microwave popcorn<br>
+                    <input type="radio" name="q9" value="2"> Doritos Roulette<br>
+                    <input type="radio" name="q9" value="3"> Apple Slices<br>
+                    <input type="radio" name="q9" value="4"> Oreos<br>
+                    <input type="radio" name="q9" value="5"> Flaming Hot Cheetos<br>
+                    <br>
+                    <label>10. While watching Netflix, what is your beverage of choice?</label><br>
+                    <input type="radio" name="q10" value="1"> Coca Cola<br>
+                    <input type="radio" name="q10" value="2"> Beer<br>
+                    <input type="radio" name="q10" value="3"> Tea<br>
+                    <input type="radio" name="q10" value="4"> Powerade<br>
+                    <input type="radio" name="q10" value="5"> Coffee - to feul the binge session<br>
+                    <br>
+                    <label>Finally, please provide your email address so your netflix soulmate can find you: </label>
+                    <input type="text" id="email"><br>
+                    <br>
+                    <input type="submit" id="submit" value="submit" placeholder="Enter Your Email Here">
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $("#submit").on("click", function(event){
+                event.preventDefault();
+                console.log("form submitted"+event);
+
+                var newFriend={
+                    name: $("#name").val().trim(),
+                    userResponse:[
+                        $("input[name='q1']:checked").val(),
+                        $("input[name='q2']:checked").val(),
+                        $("input[name='q3']:checked").val(),
+                        $("input[name='q4']:checked").val(),
+                        $("input[name='q5']:checked").val(),
+                        $("input[name='q6']:checked").val(),
+                        $("input[name='q7']:checked").val(),
+                        $("input[name='q8']:checked").val(),
+                        $("input[name='q9']:checked").val(),
+                        $("input[name='q10']:checked").val(),
+                    ],
+                    email: $("#email").val().trim()
+                };
+                console.log(newFriend);
+            
+                $.ajax({
+                    url:"api/friends",
+                     method:"GET"
+                }).then(function(friendsData){
+                        var compatible=[];
+                        var matchName;
+                        var matchEmail;
+                        for (var i=0; i<friendsData.length-1; i++){
+                            compatible.push(0);
+                            for(var j=0; j<friendsData.length; j++){
+                                if (friendsData[i].userResponse[j]===newFriend.userResponse[j]){
+                                    compatible[i]+=1;
+                                }
+                            }
+                        }
+            
+                        var max=Math.max.apply(null, compatible);
+            
+                        for (var k=0; k<compatible.length; k++){
+                            if (compatible[k]===max){
+                                matchName=friendsData[k].name;
+                                matchEmail=friendsData[k].email;
+                                k+=compatible.length;
+                            }
+                        }
+                        console.log(matchName +" "+ matchEmail);
+                        $("#survey").empty();
+                        var displayName=$("<h3>").text("Your Match: "+matchName);
+                        var displayEmail=$("<h3>").text("Email: "+matchEmail);
+                        $("#survey").append("<h3>Your Match is...</h3>");
+                        $("#survey").append(displayName);
+                        $("#survey").append(displayEmail);
+                });
+            
+                
+                $.post("/api/friends", newFriend, function(data){
+                    console.log("User was entered!");
+                    //$("#yay").modal("toggle");
+                });
+            });
+            </script>
+    </body>
+</html>
